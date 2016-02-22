@@ -50,7 +50,7 @@ In your apache virtualhost config, we'll add a new section. Make sure it looks a
 </Virtualhost>
 ```
 
-As you can see, I have Xhgui installed in **/Users/USER/Sites/localhost/xhprof/external/header.php**
+As you can see, I have Xhgui installed in **/Users/<USER>/Sites/localhost/xhprof/external/header.php**
 
 What does it do?
 
@@ -81,4 +81,7 @@ if (isset($_COOKIE["_profile"])) {
 ```
 
 The changes we made above, will make the toggle button, that we installed into chrome, will trigger the profiler to start.
+
+![Xhprof button](http://harings.be/sites/default/files/2016-02/Schermafbeelding%202016-02-22%20om%2012.55.46_7.png)
+
 If it is not active, we just use the pages as normal without any performance issues.
