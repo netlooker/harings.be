@@ -50,7 +50,7 @@ In your apache virtualhost config, we'll add a new section. Make sure it looks a
 </Virtualhost>
 ```
 
-As you can see, I have Xhgui installed in **/Users/<USER>/Sites/localhost/xhprof/external/header.php**
+As you can see, I have Xhgui installed in **/Users/USER/Sites/localhost/xhprof/external/header.php**
 
 What does it do?
 
