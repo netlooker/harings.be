@@ -1,6 +1,5 @@
 # Behat introduction for Drupal
 
-Topics:
 * [What is Behat?](#whatisbehat)
 * [Running tests](#runningtests)
 * [Feature files](#featurefiles)
