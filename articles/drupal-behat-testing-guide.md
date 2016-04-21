@@ -439,7 +439,7 @@ firefox
 Once we know the command to open the browser, we open up the 
 **behat.yml**.
 
-Add *open_cmd: open %s* as in the example:
+Add *show_cmd: open %s* as in the example:
 
 ```json
 Behat\MinkExtension:
@@ -447,7 +447,7 @@ Behat\MinkExtension:
     selenium2: ~
     javascript_session: 'selenium2
     base-url: 'http://information.ecloc'
-    open_cmd:  open %s
+    show_cmd:  open %s
 ```
 
 Now that we have configured Behat with the correct command to open
