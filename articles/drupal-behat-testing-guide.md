@@ -28,6 +28,18 @@ We tell Behat what it has to doe by writing it down.
 
 ## <a name="runningtests"></a> Running tests
 
+It is for us, important to have the correct configuration before we build
+our environments `build-dev`.
+
+The build.properties.local needs to contain:
+```
+behat.base_url = http://information.local/
+behat.test_tags = @information,@shared
+```
+
+The actual tags are depending on the project you are working on, the 
+tags to be used can be found in the build.properties.dist.PROJECT.local
+
 Before we start creating tests, we quickly show how to run Behat 
 tests. There is much more possible then covered here, but this 
 should give you a kickstart into behat.
