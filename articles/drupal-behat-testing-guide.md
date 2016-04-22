@@ -38,7 +38,7 @@ behat.test_tags = @information,@shared
 ```
 
 The actual tags are depending on the project you are working on, the 
-tags to be used can be found in the build.properties.dist.PROJECT.local
+tags to be used can be found in the **build.properties.dist.PROJECT.local**
 
 Before we start creating tests, we quickly show how to run Behat 
 tests. There is much more possible then covered here, but this 
