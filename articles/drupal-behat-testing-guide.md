@@ -58,16 +58,17 @@ Let's open the terminal and navigate to the tests folder. We can run
 the following commands:
 
 ```bash
-./behat -c behat.yml
+./behat
 ```
 
-This simply runs behat using our config file. It wil also run every test it can find in the current folder.
+This simply runs behat using our default config file. 
+It wil also run every test it can find in the current folder.
 
 More options:
 
 ```bash
 ; Running a specific test:
-./behat -c behat.yml features/inpage_nav.feature
+./behat features/inpage_nav.feature
 
 ; Show all possible commands:
 ./behat -h
@@ -115,7 +116,7 @@ the following command inside the folder where your tests live, to
 get a good idea.
 
 ```bash
-$ ./behat -c behat.yml -dl
+$ ./behat -dl
 
 Output:
 ...
@@ -133,7 +134,7 @@ starting words. There are a total of 5:
 Or if you are looking for something specific you can run:
 
 ```bash
-$ ./behat -c behat.yml -dl | grep drush
+$ ./behat -dl | grep drush
 
 Output:
 ...
@@ -328,7 +329,7 @@ Now, instead of trying to figure out how we should implement this,
 lets run our test.
 
 ```bash
-./behat -c behat.yml features/home.feature
+./behat features/home.feature
 
 Output:
 ...
