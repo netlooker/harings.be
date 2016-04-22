@@ -18,7 +18,7 @@
 
 ## <a name="whatisbehat"></a> What is Behat?
 
-(cp) Behat is an open source Behavior Driven Development framework for PHP 5.3+. (/cp)
+Behat is an open source Behavior Driven Development framework for PHP 5.3+.
 
 It allows us to write human understandable test scenario's. Because
 the scenario's are easy to write, they could be written by someone
@@ -44,9 +44,10 @@ Before we start creating tests, we quickly show how to run Behat
 tests. There is much more possible then covered here, but this 
 should give you a kickstart into behat.
 
-Taking our current project, Behat is already configured for you
-(luckily we can skip the setup part). When we go into the */tests* 
-folder in our project root we see a behat and behat.yml file.
+When we go into the */tests* folder in our project root we see a behat and behat.yml file.
+
+If this file is not present, you can run `./bin/phing setup-behat` from the project root
+to regenerate it.
 
 The behat.yml file contains our configuration.
 
