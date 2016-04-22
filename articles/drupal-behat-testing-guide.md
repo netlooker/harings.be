@@ -83,7 +83,7 @@ Feature files are the files that contain the actual test.
 The filename should be simple, but should be clear enough to know 
 what it is about.
 
-### <a name="featuredefinition"></a> The feature defenition
+### <a name="featuredefinition"></a> The feature definition
 
 Every feature file starts with a **feature** block:
 
@@ -380,7 +380,7 @@ For more examples you can take a look at
 folder. This is also our main context file.
 
 **And should ideally be the only to contain custom step 
-defenitions.**
+definition.**
 
 > All other methodes, should be placed into helper classes. Good 
 example is:
