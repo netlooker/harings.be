@@ -456,7 +456,7 @@ Add *show_cmd: open %s* as in the example:
 
 ```json
 Behat\MinkExtension:
-	goutte: ~
+    goutte: ~
     selenium2: ~
     javascript_session: 'selenium2
     base-url: 'http://information.ecloc'
@@ -476,6 +476,15 @@ making it easy to find potiential issues.
 
 ## <a name="whattotest"></a> What to test?
 
-Open discussion
+By importance:
+
+1. Custom implementation
+2. Bugfixes / regressions (feature exports gone wrong)
+3. Critical custom configurations (editorial workflow, permissions, multilingual, views)
+4. Business critical functionality (Tests by requests of the client)
+5. ...
+
+What not to test:
+Basic Drupal delivered functions (content forms, admin menu, ...)
 
 [cucumber]: https://en.wikipedia.org/wiki/Cucumber_(software)
