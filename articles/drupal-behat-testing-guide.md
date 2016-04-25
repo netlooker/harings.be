@@ -4,7 +4,7 @@
 * [Running tests](#runningtests)
 * [Feature files](#featurefiles)
 	* [The feature definition](#featuredefinition)
-    * [Scenario's](#scenarios)
+    * [Scenarios](#scenarios)
     * [Scenario outlines](#scenariooutline)
 * [Contexts](#contexts)
     * [What are contexts](#whatarecontexts)
@@ -20,8 +20,8 @@
 
 Behat is an open source Behavior Driven Development framework for PHP 5.3+.
 
-It allows us to write human understandable test scenario's. Because
-the scenario's are easy to write, they could be written by someone
+It allows us to write human understandable test scenarios. Because
+the scenarios are easy to write, they could be written by someone
 that has no knowledge of coding.
 
 We tell Behat what it has to doe by writing it down.
@@ -98,7 +98,7 @@ Besides telling you what the tests are about, they have no function.
 They should however, be short and descriptive enough to tell users 
 what is going to be tested.
 
-### <a name="scenarios"></a> Scenario's
+### <a name="scenarios"></a> Scenarios
 
 Each scenario is a test. A scenario starts with telling that it is a 
 scenario:
@@ -202,7 +202,7 @@ A scenario outline, is a more advanced version of the basic
 *scenario*.
 
 The idea of a scenario outline, is to run a same set of steps, for 
-multiple scenario's.
+multiple scenarios.
 
 To define a scenario outline, we simply use it as our first line.
 
@@ -395,7 +395,7 @@ should run.
 
 Currently we have the following tags:
 
-**@api** tag is used to define scenario's that use the Drupal api.
+**@api** tag is used to define scenarios that use the Drupal api.
 So that is basically every step of ours.
 
 **@information, @political, @brp, @cwt**, are tags for each 
