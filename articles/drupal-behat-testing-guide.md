@@ -404,7 +404,7 @@ A test that should only run for political should be tagged with
 @political.
 
 **@shared**, these are tests that should run for information, 
-brp, and political.
+and political.
 
 **@wip**, this can be used to define a test that is not finished. 
 But why would we ever push this?
